@@ -1,2 +1,55 @@
 <link rel="shortcut icon" href="../../assets/icons/icon-area.ico" type="image/x-icon">
 <!-- https://rolling-scopes-school.github.io/alaicev-JSFE2022Q1/shelter/assets/icons/icon-area.ico --> ссылка на картинку
+
+.header-nav__item a:hover,
+.header-nav__item a.active {
+    color: var(--color-nav-active);
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: 6px;
+}
+<!-- подсветка для ссылок -->
+
+/* reset css*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
